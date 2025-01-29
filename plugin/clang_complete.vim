@@ -125,11 +125,11 @@ function! s:ClangCompleteInit()
   endif
 
   if !exists('g:clang_jumpto_declaration_key')
-    let g:clang_jumpto_declaration_key = '<C-]>'
+    let g:clang_jumpto_declaration_key = '<C-k>k'
   endif
 
   if !exists('g:clang_jumpto_declaration_in_preview_key')
-    let g:clang_jumpto_declaration_in_preview_key = '<C-W>]'
+    let g:clang_jumpto_declaration_in_preview_key = '<C-W>k'
   endif
 
   if !exists('g:clang_jumpto_back_key')
